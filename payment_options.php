@@ -30,7 +30,7 @@
                 
                 Paypall Payment
                 
-                <img class="img-responsive" src="images/paypal.png" alt="img-paypall">
+                <img class="img-responsive" src="images/paypall_img.png" alt="img-paypall">
                 
             </a>
             

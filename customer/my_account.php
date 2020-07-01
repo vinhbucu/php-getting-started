@@ -48,7 +48,7 @@ include("functions/functions.php");
                    ?>
                
                </a>
-               <a href="../checkout.php"> <?php items(); ?> Items In Your Cart | Total Price: <?php total_price(); ?> </a>
+               <a href="checkout.php"> <?php items(); ?> Items In Your Cart | Total Price: <?php total_price(); ?> </a>
                
            </div><!-- col-md-6 offer Finish -->
            
@@ -72,11 +72,11 @@ include("functions/functions.php");
                            
                            if(!isset($_SESSION['customer_email'])){
                        
-                                echo "<a href='../checkout.php'> Login </a>";
+                                echo "<a href='checkout.php'> Login </a>";
 
                                }else{
 
-                                echo " <a href='../logout.php'> Log Out </a> ";
+                                echo " <a href='logout.php'> Log Out </a> ";
 
                                }
                            
@@ -101,8 +101,8 @@ include("functions/functions.php");
                
                <a href="../index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/ATNToy.png" style="width: 55px" alt="ATNToy Logo" class="hidden-xs">
-                   <img src="images/ATNToy.png" style="width: 55px" alt="ATNToy Logo Mobile" class="visible-xs">
+               <img src="images/ATNToy.png" width="50px" alt="M-dev-Store Logo" class="hidden-xs">
+                   <img src="images/ATNToy.png" width="50px" alt="M-dev-Store Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                

@@ -1,5 +1,3 @@
-
-
 <div class="panel panel-default sidebar-menu"><!-- panel panel-default sidebar-menu Begin -->
     <div class="panel-heading"><!-- panel-heading Begin -->
         <h3 class="panel-title">Products Categories</h3>

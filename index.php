@@ -21,14 +21,14 @@
                </ol><!-- carousel-indicators Finish -->
                
                <div class="carousel-inner"><!-- carousel-inner Begin -->
-
-               <?php 
+                  
+                  <?php 
                    
                    $get_slides = "select * from slider LIMIT 0,1";
                    
                    $run_slides = mysqli_query($con,$get_slides);
                    
-                   while($row_slides = mysqli_fetch_array($run_slides)){
+                   while($row_slides=mysqli_fetch_array($run_slides)){
                        
                        $slide_name = $row_slides['slide_name'];
                        $slide_image = $row_slides['slide_image'];
@@ -37,7 +37,7 @@
                        
                        <div class='item active'>
                        
-                            <img style='margin: auto;' src='admin_area/slides_images/$slide_image'>
+                       <img src='admin_area/slides_images/$slide_image'>
                        
                        </div>
                        
@@ -58,7 +58,7 @@
                        
                        <div class='item'>
                        
-                       <img style='margin: auto;' style src='admin_area/slides_images/$slide_image'>
+                       <img src='admin_area/slides_images/$slide_image'>
                        
                        </div>
                        
@@ -108,7 +108,7 @@
                        
                        <h3><a href="#">Best Offer</a></h3>
                        
-                       <p>Dedicated service, enthusiastic advice. </p>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -126,7 +126,7 @@
                        
                        <h3><a href="#">Best Prices</a></h3>
                        
-                       <p>Best price products in the market.</p>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -144,7 +144,7 @@
                        
                        <h3><a href="#">100% Original</a></h3>
                        
-                       <p>Pure products are non-toxic, clear treatment.</p>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                        
                    </div><!-- box same-height Finish -->
                    
@@ -179,18 +179,22 @@
    <div id="content" class="container"><!-- container Begin -->
        
        <div class="row"><!-- row Begin -->
-
-       <?php 
-            getpro();
-       ?>
+          
+          <?php 
+           
+           getPro();
+           
+           ?>
            
        </div><!-- row Finish -->
        
    </div><!-- container Finish -->
-
-   <?php
-        include("includes/footer.php");
-   ?>
+   
+   <?php 
+    
+    include("includes/footer.php");
+    
+    ?>
     
     <script src="js/jquery-331.min.js"></script>
     <script src="js/bootstrap-337.min.js"></script>

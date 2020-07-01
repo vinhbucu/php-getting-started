@@ -1,6 +1,6 @@
 <center><!--  center Begin  -->
     
-    <h1> Pay offline Using method </h1>
+    <h1> Pay Offline Using Method </h1>
     
     <p class="text-muted">
         
@@ -21,19 +21,20 @@
         <thead><!--  thead Begin  -->
             
             <tr><!--  tr Begin  -->
-                
-                <th> Bank Accout Details: </th>
-                <th> Easy Paisa, UBL onni, Mobi Cash Deatils: </th>
-                <th> Western Union Detasils: </th>
-                
+            
+                <th> Bank Account Details: </th>
+                <th> Easy Paisa, UBL Omni, Mobi Cash Details: </th>
+                <th> Western Union Details: </th>
+
             </tr><!--  tr Finish  -->
             
         </thead><!--  thead Finish  -->
         
         <tbody><!--  tbody Begin  -->
-        <td>Bank Name: UBL | Account No: 180-839-832 | Branch Name: LaCat | Branch Code: 1498</td>
-        <td>NIC #982-231-232 | Mobile No: 0956-335-545 | Name: Mr.Vinh</td>
-        <td>Real name: Mr Mughinato | Mobile No: 0965-976-125 Country: Pakistan | Name: Mr.Vinh | Nic #976-123=231</td>
+           
+           <td> Bank Name: UBL | Account No: 180-839-032 | Branch Name: Lahore | Branch Code: 1498 </td>
+           <td> NIC #980-231-907 | Mobile No: 0931-7894-9983 | Name: MrGhie </td>
+           <td> Real Name: Mr Mughianto | Mobile No: 0931-7894-9983 Country: Pakistan | Name: MrGhie | NIC #980-231-907 </td>
             
         </tbody><!--  tbody Finish  -->
         

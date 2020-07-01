@@ -103,12 +103,12 @@
                 
                 <p><!-- p Start -->
                     
-                <strong>ATNTOY inc.</strong>
-                    <br/>ATNTOY
-                    <br/>ATNTOY
-                    <br/>0123-4567-8910
-                    <br/>ATNTOY@gmail.com
-                    <br/><strong>ATNadmin</strong>
+                    <strong>M-Dev Media inc.</strong>
+                    <br/>Cibubur
+                    <br/>Ciracas
+                    <br/>0818-0683-3157
+                    <br/>mugianto4th@gmail.com
+                    <br/><strong>MrGhie</strong>
                     
                 </p><!-- p Finish -->
                 
@@ -164,12 +164,12 @@
     <div class="container"><!-- container Begin -->
         <div class="col-md-6"><!-- col-md-6 Begin -->
             
-            <p class="pull-left">&copy; 2020 ATNTOY All Rights Reserve</p>
+            <p class="pull-left">&copy; 2018 M-Dev Store All Rights Reserve</p>
             
         </div><!-- col-md-6 Finish -->
         <div class="col-md-6"><!-- col-md-6 Begin -->
             
-            <p class="pull-right">Theme by: <a href="#">AdminATN</a></p>
+            <p class="pull-right">Theme by: <a href="#">MrGhie</a></p>
             
         </div><!-- col-md-6 Finish -->
     </div><!-- container Finish -->

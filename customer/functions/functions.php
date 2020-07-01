@@ -1,15 +1,6 @@
 <?php 
 
-    $servername = "127.0.0.1";
-    $database = "ecom_Store";
-    $username = "user";
-    $password = "123456";
-    // Create connection
-    $db = mysqli_connect($servername, $username, $password, $database);
-    // Check connection
-    if (!$db) {
-        die("Connection failed: " . mysqli_connect_error());
-    } 
+$db = mysqli_connect("localhost","root","","ecom_store");
 
 /// begin getRealIpUser functions ///
 
