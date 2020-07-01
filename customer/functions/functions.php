@@ -1,6 +1,6 @@
 <?php 
 
-$db = mysqli_connect("localhost","root","","ecom_store");
+$db = mysqli_connect("127.0.0.1","baocc","123456","baocc");
 
 /// begin getRealIpUser functions ///
 

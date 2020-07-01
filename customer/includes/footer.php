@@ -103,12 +103,10 @@
                 
                 <p><!-- p Start -->
                     
-                    <strong>M-Dev Media inc.</strong>
-                    <br/>Cibubur
-                    <br/>Ciracas
-                    <br/>0818-0683-3157
-                    <br/>mugianto4th@gmail.com
-                    <br/><strong>MrGhie</strong>
+                    <strong>M-Ken Media inc.</strong>
+                    <br/>0796750305
+                    <br/>bao1552000@gmail.com
+                    <br/><strong>MrKendy</strong>
                     
                 </p><!-- p Finish -->
                 

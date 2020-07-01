@@ -106,7 +106,22 @@
                            
                        </div><!-- icon Finish -->
                        
-                       <h3><a href="#">Best Offer</a></h3>
+                       <h3>
+                       <html>
+   
+
+   <body>
+   
+       <?php
+         $text = 'Best Offer';  
+		 $text = preg_replace('/(\b[a-z])/i','<span style="color:blue;">\1</span>',$text);  
+		 echo $text;
+       ?>
+       
+   </body>
+</html>
+                           <a href="#"></a>
+                    </h3>
                        
                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                        
@@ -142,7 +157,16 @@
                            
                        </div><!-- icon Finish -->
                        
-                       <h3><a href="#">100% Original</a></h3>
+                       <h3><body>
+   
+   <?php
+     $text = 'Best Offer';  
+     $text = preg_replace('/(\b[a-z])/i','<span style="color:blue;">\1</span>',$text);  
+     echo $text;
+   ?>
+   
+</body>
+</html></h3>
                        
                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                        
@@ -163,10 +187,24 @@
            <div class="container"><!-- container Begin -->
                
                <div class="col-md-12"><!-- col-md-12 Begin -->
-                   
-                   <h2>
-                       Our Latest Products
-                   </h2>
+               <html>
+      <h2>
+   <head>
+      <title>Our Latest Products</title>
+   </head>
+   <body>
+   
+       <?php
+         $text = 'Our Latest Products';  
+		 $text = preg_replace('/(\b[a-z])/i','<span style="color:red;">\1</span>',$text);  
+		 echo $text;
+       ?>
+       
+   </body>
+</html>
+        </h2>          
+                       
+                 
                    
                </div><!-- col-md-12 Finish -->
                
@@ -199,6 +237,6 @@
     <script src="js/jquery-331.min.js"></script>
     <script src="js/bootstrap-337.min.js"></script>
     
-    
+
 </body>
 </html>
